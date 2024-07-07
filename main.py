@@ -31,6 +31,7 @@ Human = Person()
 
 
 def main():
+    """this is main func"""
     while (Human.hp > 0):
         dirr = input("Where? UP/Down/Right/Left/search?")
         if dirr == ("up" or "Up"):
